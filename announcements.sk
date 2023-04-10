@@ -1,0 +1,10 @@
+#---by Cry#6038---#
+command /an [<text>]:     #---command name/nazwa komendy---#
+    permission: op    #---change it to your own permissions/ustaw tu swoje wlasne permisje---# 
+    permission message: "&4You don't have permissions to use this command!&4"   #---message if you don't have permissions/wiadomosc dla osob ktore nie posiadaja permisji"
+    aliases: an
+    trigger:
+        if arg-1 is set:
+            broadcast "&5ANNOUNCEMENT FROM &4SERVER ADMINISTRATOR: --> &6%arg-1%" 
+        else:
+            send "&5Wrong command, use: /an text&5"  #---message for people who didn't set text/wiadomosc dla osob ktore nie ustawily tekstu---#
