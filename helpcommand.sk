@@ -1,0 +1,4 @@
+#---by Cry#6038---#
+command /help:   #---command name/nazwa komendy---#
+    trigger:
+        send "&4YOURTEXT/TWOJTEXT&4" to player  #---text used in the command, you have to set it by yourself/tekst uzywany w komendzie, musisz zmienic go samemu"
